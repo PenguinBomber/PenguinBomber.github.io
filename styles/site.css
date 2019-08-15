@@ -27,7 +27,7 @@
 	padding: 1em;
 	margin-bottom: 2em;
 	width: calc(100% - 2em);
-	max-width: 30em;
+	max-width: 50em;
 	border-radius: 0.5em;
   box-shadow: 0 0 0.1em rgba(0,0,0, 0.5);
 }
