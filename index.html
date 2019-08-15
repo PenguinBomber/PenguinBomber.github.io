@@ -1,1 +1,35 @@
-hello world
+<!doctype HTML>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" media="screen and (min-width: 700px)" href="styles/desktop.css">
+		<link rel="stylesheet" media="screen and (max-width: 700px)" href="styles/phone.css">
+		<link rel="stylesheet" href="styles/common.css">
+		<link rel="stylesheet" href="styles/site.css">
+		<script src="scripts/behaviors.js"></script>
+	</head>
+	<body>
+		<template id="listItem">
+			<li><a></a><button>delete</button></li>
+		</template>
+		<div id="overlay" class="hide">
+		</div>
+		<heading>
+			<button id="nav"></button>
+			<div id="who">Home</div>
+		</heading>
+		<nav>
+			<div>
+				<ul>
+					<a href="new"><li>Bookmarks</li></a>
+				</ul>
+			</div>
+			<div class="background"></div>
+		</nav>
+		<div id="content">
+			<div class="card">
+				<h3>Status</h3>
+			</div>
+		</div>
+	</body>
+</html>

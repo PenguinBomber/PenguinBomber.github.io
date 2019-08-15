@@ -1,0 +1,26 @@
+body {
+	display: grid;
+	grid-template-columns: 15em 1fr;
+	grid-template-rows: auto 1fr;
+}
+
+heading {
+	grid-column: 1/3;
+	grid-row: 1/2;
+}
+
+nav {
+	grid-column: 1/2;
+	grid-row: 2/3;
+	border-right: #bbb solid 1px;
+	background: #f8f8f8;
+}
+
+nav li {
+	background: #f8f8f8;
+	transition: background 0.3s;
+}
+
+nav li:hover {
+	background: #fff;
+}
